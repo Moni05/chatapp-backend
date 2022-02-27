@@ -30,7 +30,7 @@ const apiServer = app.listen(process.env.PORT || 5000,()=>console.log(`Api runni
 
 const io = require("socket.io")(apiServer, {
     cors: {
-      origin: "https://frosty-brattain-784a4c.netlify.app/",
+      origin: "https://frosty-brattain-784a4c.netlify.app",
     },
 });
 
